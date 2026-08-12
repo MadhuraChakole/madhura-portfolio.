@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your Name — Professional portfolio. Projects, skills, and contact.">
+  <meta property="og:title" content="Your Name | Portfolio">
+  <meta property="og:description" content="Professional portfolio showcasing projects and skills.">
+  <meta property="og:type" content="website">
+  <title>Your Name | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">Your Name</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <p class="hero-label">Portfolio</p>
+      <h1 class="hero-title">Hi, I'm <span class="accent">Your Name</span></h1>
+      <p class="hero-subtitle">Software Developer · Problem Solver · Lifelong Learner</p>
+      <p class="hero-desc">
+        I build clean, user-focused applications. Passionate about turning ideas into
+        reliable products that make a difference.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <p>
+          Write a short professional summary here — your background, what you do best,
+          and what you're looking for. Keep it concise and confident.
+        </p>
+        <ul class="about-highlights">
+          <li>
+            <span class="highlight-label">Location</span>
+            <span>Your City, Country</span>
+          </li>
+          <li>
+            <span class="highlight-label">Education</span>
+            <span>Your Degree / University</span>
+          </li>
+          <li>
+            <span class="highlight-label">Focus</span>
+            <span>Web Development, UI/UX, etc.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <ul class="skill-tags">
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>TypeScript</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Frontend</h3>
+            <ul class="skill-tags">
+              <li>React</li>
+              <li>HTML & CSS</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Backend & Tools</h3>
+            <ul class="skill-tags">
+              <li>Node.js</li>
+              <li>Git</li>
+              <li>REST APIs</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Project One</h3>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Live demo">Live</a>
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Source code">Code</a>
+            </div>
+          </div>
+          <p>
+            Brief description of what the project does, the problem it solves,
+            and your role in building it.
+          </p>
+          <ul class="project-tags">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Project Two</h3>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Live demo">Live</a>
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Source code">Code</a>
+            </div>
+          </div>
+          <p>
+            Another project highlight. Mention key features, impact, or metrics
+            if you have them (e.g. "Used by 500+ users").
+          </p>
+          <ul class="project-tags">
+            <li>Python</li>
+            <li>Flask</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Project Three</h3>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Live demo">Live</a>
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Source code">Code</a>
+            </div>
+          </div>
+          <p>
+            Third project — could be a hackathon build, open-source contribution,
+            or personal tool you built.
+          </p>
+          <ul class="project-tags">
+            <li>JavaScript</li>
+            <li>API</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-section">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-text">
+          Open to opportunities and collaborations. Feel free to reach out.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com" class="contact-link">
+            <span class="contact-label">Email</span>
+            your.email@example.com
+          </a>
+          <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <span class="contact-label">LinkedIn</span>
+            linkedin.com/in/your-profile
+          </a>
+          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <span class="contact-label">GitHub</span>
+            github.com/your-username
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Your Name. Built with care.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
