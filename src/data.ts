@@ -41,165 +41,201 @@ export interface CodeSnippet {
 
 export const PORTFOLIO_DATA = {
   name: "Madhura Chakole",
-  role: "Frontend Developer",
+  fullName: "Madhura Ambaji Chakole",
+  role: "Frontend Developer | React.js Developer",
   email: "madhurachakole.22@gmail.com",
   phone: "+91 9325509858",
   linkedin: "https://linkedin.com/in/madhura-chakole",
   github: "https://github.com/MadhuraChakole",
+  portfolio: "https://madhurachakole-portfolio.vercel.app",
   resumeLink: "/Madhura_Chakole_Resume.pdf",
-  location: "Pune, India",
+  location: "Pune, Maharashtra, India",
   availability: "Available for Full-Time Roles",
 
-  tagline: "Building scalable, high-performance React 19 & TypeScript applications for modern SaaS platforms and enterprise admin dashboards.",
+  tagline: "Frontend Developer (React.js) building responsive, API-driven web applications with modern component architectures, performance tuning, and full-stack capabilities.",
 
   stats: [
     { label: "Modular Components", value: "30+", desc: "Hooks-based React architecture", icon: Layers },
-    { label: "Approval Setup Time", value: "60% Faster", desc: "Reduced via ReactFlow drag-and-drop", icon: Zap },
-    { label: "Re-Render Reduction", value: "50%", desc: "Optimized using useMemo & React.memo", icon: Cpu },
-    { label: "Page Load Time", value: "< 2s", desc: "Sub-2 second cross-browser load times", icon: ShieldCheck }
+    { label: "Core Admin Modules", value: "6", desc: "Shipped for EDICT Enterprise platform", icon: Zap },
+    { label: "Re-Render Reduction", value: "50%", desc: "Optimized via React.memo & code-splitting", icon: Cpu },
+    { label: "Academic Standing", value: "Grade A+", desc: "MCA & Bachelor's Degrees", icon: ShieldCheck }
   ],
 
   about: {
     bio: [
-      "I am a results-driven Frontend Developer specializing in React 19, TypeScript, and modern web architectures. I turn complex business workflows into crisp, intuitive, and performant user interfaces.",
-      "Currently at Proser Digital Solutions, I build modular React components, integrate REST APIs with resilient state management, and convert Figma designs into pixel-perfect web applications. Previously, I contributed to Edict, an AI-powered enterprise SaaS admin platform handling audit tracking, visual workflow builders, and document management for 50+ organizations.",
-      "Engineers and hiring teams value my focus on clean code, strong TypeScript typing, proactive performance tuning, and responsive UI design."
+      "I am a Frontend Developer (React.js) with hands-on internship experience building responsive, API-driven web applications using React.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, and Tailwind CSS. Skilled in reusable component architecture, REST API integration, Figma-to-code implementation, cross-browser compatibility, debugging, and performance optimization.",
+      "At Proser Digital Solutions, I developed modular React components using a hooks-based architecture, integrated REST APIs with MongoDB-backed data flows across core admin modules, and converted Figma designs into responsive interfaces across desktop and mobile breakpoints. Previously at Tayan Solutions, I delivered responsive interfaces and resolved functional bugs within sprint deadlines.",
+      "I have built full-stack applications including HerFit AI (AI-Powered Fitness & Wellness Platform) and shipped six core admin modules for the EDICT Enterprise SaaS Platform. As an MCA graduate (Grade: A+), I am actively seeking a Frontend / React.js Developer role."
     ],
     principles: [
       {
-        title: "Clean & Type-Safe Architecture",
-        desc: "Strict TypeScript interfaces, modular component patterns, and separation of UI from business logic.",
+        title: "Clean & Reusable Component Architecture",
+        desc: "Hooks-based modular architecture, strict TypeScript typing, and separation of UI from business logic.",
         icon: Layout
       },
       {
         title: "Performance Optimization",
-        desc: "Sub-2s page renders, minimized re-renders using React.memo, useMemo, and optimized bundle chunks.",
+        desc: "Minimizing wasteful re-renders using React.memo, code splitting, and sub-2 second page loads.",
         icon: Zap
       },
       {
-        title: "User-Centric Engineering",
-        desc: "Pixel-perfect Figma translations, smooth Framer Motion micro-animations, and full WCAG accessibility.",
+        title: "Figma-to-Code Precision",
+        desc: "Translating Figma designs into responsive, cross-browser interfaces with consistent layouts across breakpoints.",
         icon: CloudCog
       },
       {
-        title: "Scalable State Management",
-        desc: "Predictable data flows leveraging Redux Toolkit, Context API, and resilient Axios error handling.",
+        title: "Resilient API & State Integration",
+        desc: "Dynamic data fetching with Axios, MongoDB-backed flows, and robust error handling.",
         icon: Network
       }
     ]
   },
 
-  summary: "Frontend Developer with hands-on experience building scalable Admin Dashboards and full-stack web applications using React 19, TypeScript, and JavaScript (ES6+). Skilled in Redux Toolkit, Context API, REST API integration, Firebase Authentication, and MongoDB-backed systems. Experienced in converting Figma designs into responsive UI and optimizing performance for cross-browser compatibility.",
+  summary: "Frontend Developer (React.js) with hands-on internship experience building responsive, API-driven web applications using React.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, and Tailwind CSS. Skilled in reusable component architecture, REST API integration, Figma-to-code implementation, cross-browser compatibility, debugging, and performance optimization. Working knowledge of Node.js, Express.js, and MongoDB, with full-stack project experience. MCA graduate seeking a Frontend / React.js Developer role.",
 
   skills: [
-    { category: "Frontend Core", items: ["React.js (v19)", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"], icon: Layout },
-    { category: "Backend & DB", items: ["Node.js", "Express.js", "MongoDB", "Core Java"], icon: Database },
-    { category: "State & API Integration", items: ["Redux Toolkit", "Context API", "REST APIs", "Axios", "Async Thunks"], icon: Network },
-    { category: "Development Tools", items: ["Git", "GitHub", "Bitbucket", "VS Code", "Postman", "Jira", "Figma"], icon: Terminal },
-    { category: "Engineering Practices", items: ["Responsive UI", "Cross-Browser Testing", "Performance Optimization", "Clean Code", "Agile Sprints"], icon: CloudCog }
+    { category: "Languages", items: ["JavaScript (ES6+)", "TypeScript", "Core Java", "SQL (basics)"], icon: Terminal },
+    { category: "Frontend", items: ["React.js", "Hooks", "React.memo", "Code Splitting", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Responsive Design"], icon: Layout },
+    { category: "Backend & Database", items: ["Node.js", "Express.js", "REST APIs", "Axios", "MongoDB", "User Authentication"], icon: Database },
+    { category: "Tools", items: ["Git", "GitHub", "Bitbucket", "VS Code", "Postman", "Jira", "Figma"], icon: Network },
+    { category: "Practices", items: ["Reusable Components", "API Integration", "Role-Based Access Control", "Debugging", "Cross-Browser Compatibility", "Performance Optimization", "Agile/Scrum"], icon: CloudCog }
   ],
 
   projects: [
     {
-      id: "edict-ai",
+      id: "herfit-ai",
       category: "SaaS & AI",
-      title: "Edict — AI Business Automation Platform",
-      subtitle: "Multi-Tenant SaaS Admin Dashboard & Workflow Builder",
-      link: "https://www.edictapp.com/",
-      github: "",
-      description: "Enterprise SaaS admin dashboard serving 50+ organizations to automate day-to-day business operations, audit tracking, and document workflows.",
+      title: "HerFit AI – AI-Powered Fitness & Wellness Platform",
+      subtitle: "Personalized Fitness Dashboard & AI Fitness Coach",
+      link: "https://madhurachakole-portfolio.vercel.app",
+      github: "https://github.com/MadhuraChakole",
+      description: "Full-stack personalized fitness and wellness platform that lets users manage workouts, hydration, daily fitness goals, and progress from a single, user-friendly dashboard.",
       points: [
-        "Architected scalable React 19 frontend supporting Role-Based Access Control (RBAC) across 5 distinct user roles.",
-        "Built an intuitive drag-and-drop workflow builder using ReactFlow, cutting approval setup time by 60%.",
-        "Integrated document management, leave application, and holiday policy modules with scoped permissions.",
-        "Engineered enterprise audit suite featuring real-time activity heatmaps, risk alerts, and CSV/PDF exportable log reports."
+        "Built full-stack fitness and wellness platform letting users manage workouts, hydration, daily fitness goals, and progress.",
+        "Built React.js and Tailwind CSS frontend, Node.js/Express.js backend, secure user auth, and MongoDB integration.",
+        "Implemented personalized daily workout plans based on fitness goals, experience levels, and available time.",
+        "Integrated an AI fitness coach answering fitness questions and recommending workouts based on individual goals.",
+        "Built hydration tracking with quick-add water logging, daily hydration goals, and progress monitoring.",
+        "Developed workout and activity logging with summaries, and a progress dashboard with clear visual indicators."
       ],
-      tags: ["React 19", "TypeScript", "Redux Toolkit", "ReactFlow", "Tailwind CSS", "Firebase"],
+      tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "AI Coach", "User Auth"],
       featured: true,
       modalDetails: {
-        problem: "Organizations needed a single centralized multi-tenant platform to automate internal approvals, track document access, and maintain immutable audit logs for regulatory compliance.",
-        solution: "Engineered a modular React 19 single-page app with visual flowchart creation (ReactFlow), secure token-based authentication, and customizable dashboard widgets for 5 role types (SuperAdmin, Admin, Manager, Auditor, Employee).",
+        problem: "Users often struggle with inconsistent fitness habits due to fragmented tools for tracking exercise, monitoring daily hydration, and getting immediate tailored workout guidance.",
+        solution: "Engineered a unified full-stack wellness hub with personalized daily workout generation, quick-add hydration logging, an integrated AI fitness coach, and visual progress tracking.",
         architecture: [
-          "Role-Based Access Control (RBAC) wrapper component restricting views and API calls per user token.",
-          "Visual node graph builder storing customized approval logic into structured JSON state.",
-          "Lazy-loaded dynamic reporting components for activity heatmaps and log exports.",
-          "Tailwind CSS theme engine supporting high-contrast accessible layouts."
+          "React.js and Tailwind CSS responsive interface with custom interactive progress dashboards.",
+          "Node.js and Express.js REST APIs managing workout plans, activity logs, and hydration records.",
+          "MongoDB database integration with optimized schemas for daily tracking and streaks.",
+          "Secure user authentication ensuring personal health data privacy."
         ],
         keyMetrics: [
-          "60% reduction in workflow setup time",
-          "5 distinct role-based access flows",
-          "50+ active client organizations onboarded",
-          "100% compliance audit trail accuracy"
+          "Complete full-stack fitness & wellness hub",
+          "Personalized daily workout generation",
+          "Integrated AI fitness coach recommendations",
+          "Quick-add hydration tracking & progress dashboard"
         ],
-        techStackDetails: ["React 19", "TypeScript", "ReactFlow Engine", "Redux Toolkit", "Tailwind CSS", "Firebase Auth & Firestore"]
+        techStackDetails: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "AI Coach Integration", "User Authentication"]
       }
     },
     {
-      id: "avtech-monitoring",
+      id: "edict-app",
+      category: "SaaS & AI",
+      title: "EDICT App – Enterprise SaaS Platform",
+      subtitle: "Enterprise Admin Modules, RBAC & Billing Management",
+      link: "https://www.edictapp.com",
+      github: "",
+      description: "Enterprise SaaS platform providing multi-module administration, subscription management, and role-based access control.",
+      points: [
+        "Built and shipped six core admin modules: Dashboard, Subscription & Billing, User Management, Reports, Audit Trail, and Feedback.",
+        "Implemented role-based access control and permission-driven UI across user roles, departments, and organizational scopes.",
+        "Developed subscription and billing workflows covering plan restrictions, usage tracking, subscription status, and transaction history.",
+        "Built user-management tools with multi-filter search, department/role assignment, and permission-controlled actions."
+      ],
+      tags: ["React.js", "REST APIs", "MongoDB", "RBAC", "Billing Workflows", "Tailwind CSS"],
+      featured: true,
+      modalDetails: {
+        problem: "Enterprise SaaS operations required centralized administrative control over user access, department permissions, subscription tiers, and audit compliance.",
+        solution: "Engineered 6 core production admin modules with strict permission gating, dynamic multi-filter searching, and subscription lifecycle management.",
+        architecture: [
+          "Hooks-based React architecture with reusable table, modal, and filter components.",
+          "Permission-driven UI engine rendering actions conditionally by role and department.",
+          "REST API integration with MongoDB-backed dynamic data updates.",
+          "Subscription and billing state engine handling plan limits and transaction logs."
+        ],
+        keyMetrics: [
+          "6 core enterprise modules shipped to production",
+          "Comprehensive Role-Based Access Control (RBAC)",
+          "Subscription & billing limit enforcement",
+          "Production deployment at edictapp.com"
+        ],
+        techStackDetails: ["React.js", "REST APIs", "MongoDB", "Tailwind CSS", "Axios", "RBAC Architecture"]
+      }
+    },
+    {
+      id: "personal-portfolio",
+      category: "Full-Stack Web Apps",
+      title: "Personal Portfolio Website",
+      subtitle: "High-Performance Developer Portfolio & Interactive Showcase",
+      link: "https://madhurachakole-portfolio.vercel.app",
+      github: "https://github.com/MadhuraChakole",
+      description: "Responsive personal portfolio showcasing projects, technical skills, and professional experience, optimized for all screen sizes.",
+      points: [
+        "Designed and developed a responsive personal portfolio to showcase projects, technical skills, and professional experience, optimized for desktop, tablet, and mobile screens.",
+        "Built reusable, type-safe React components with TypeScript and styled the interface with Tailwind CSS for a clean, consistent, and maintainable UI.",
+        "Developed interactive project-detail modals presenting each project's description, tech stack, and key features.",
+        "Improved initial load time and reduced unnecessary re-renders using React.memo and code-splitting.",
+        "Deployed the site on Vercel for fast, publicly accessible hosting."
+      ],
+      tags: ["React.js", "TypeScript", "Tailwind CSS", "React.memo", "Code Splitting", "Vercel"],
+      featured: true,
+      modalDetails: {
+        problem: "Presenting complex engineering achievements, interactive project deep-dives, and technical competencies in a clean, modern, and high-performance format.",
+        solution: "Built a type-safe single-page portfolio with responsive dark-theme design, dynamic project modals, code showcases, and optimized bundle delivery.",
+        architecture: [
+          "Modular component tree with TypeScript interfaces ensuring end-to-end type safety.",
+          "Render optimizations leveraging React.memo and dynamic code-splitting.",
+          "Tailwind CSS utility styling with modern glassmorphism and responsive breakpoints.",
+          "Continuous integration and instant deployments on Vercel edge network."
+        ],
+        keyMetrics: [
+          "Sub-2 second initial load time",
+          "100% type-safe React codebase",
+          "Zero unnecessary component re-renders",
+          "Live at madhurachakole-portfolio.vercel.app"
+        ],
+        techStackDetails: ["React.js", "TypeScript", "Tailwind CSS", "React.memo", "Code Splitting", "Vercel"]
+      }
+    },
+    {
+      id: "avtech-solutions",
       category: "Infrastructure & Dashboards",
-      title: "AVTech Solutions Dashboard",
-      subtitle: "Real-Time Infrastructure Monitoring & Service Status Platform",
+      title: "Avtech Solutions – Corporate Website",
+      subtitle: "Corporate Web Experience & Scannable Services Directory",
       link: "https://www.avtechsolutions.co.in",
       github: "",
-      description: "High-uptime service status dashboard monitoring 10+ cloud infrastructure endpoints in real time.",
+      description: "Responsive corporate website organizing technical service offerings into clear, scannable categories with cross-browser compatibility.",
       points: [
-        "Created 15+ reusable React monitoring components styled with custom CSS and Tailwind utilities.",
-        "Integrated REST endpoints with auto-refresh every 30 seconds for live service status and uptime alerts.",
-        "Streamlined state management using Context API, reducing prop drilling by 70% across nested views.",
-        "Tuned initial page load to sub-2 seconds with lazy loading and optimized bundle splitting."
+        "Built a responsive corporate website, organizing service information into clear, scannable categories.",
+        "Ensured responsive layouts and cross-browser consistency across desktop, tablet, and mobile breakpoints.",
+        "Structured navigation pathways for intuitive client discovery of IT solutions and service capabilities."
       ],
-      tags: ["React", "Context API", "REST APIs", "Axios", "Responsive UI", "Tailwind CSS"],
+      tags: ["React.js", "Bootstrap", "Responsive Design", "Cross-Browser Compatibility"],
       featured: true,
       modalDetails: {
-        problem: "IT ops needed instant visual clarity into endpoint latency, server downtime, and live service health without reloading browser pages.",
-        solution: "Developed an auto-polling status matrix dashboard with status color coding (Healthy, Degraded, Down), historical uptime trendlines, and immediate email alert triggers.",
+        problem: "Corporate clients needed clear, fast access to technical service portfolios without navigating cluttered or non-responsive pages.",
+        solution: "Designed and implemented a responsive, scannable corporate website organizing services into intuitive categories.",
         architecture: [
-          "Axios polling hook with auto-retry and backoff interval logic.",
-          "Centralized Status Context providing instant state broadcasts to child endpoint widgets.",
-          "Sub-2s render optimization via code-splitting and asset compression."
+          "Responsive grid architecture using React.js and Bootstrap.",
+          "Scannable category layouts with structured service descriptions.",
+          "Cross-browser testing ensuring uniform appearance across modern browsers."
         ],
         keyMetrics: [
-          "Sub-2s page load speed",
-          "70% reduction in component prop drilling",
-          "10+ service endpoints monitored live",
-          "30-second live status refresh loop"
+          "100% responsive cross-device layout",
+          "Fast scannable service directory",
+          "Production deployment at avtechsolutions.co.in"
         ],
-        techStackDetails: ["React.js", "TypeScript", "Context API", "Axios Interceptors", "Tailwind CSS"]
-      }
-    },
-    {
-      id: "networking-dashboard",
-      category: "Full-Stack Web Apps",
-      title: "Networking Admin Suite",
-      subtitle: "Full-Stack Analytics & Record Management Platform",
-      link: "https://networking-site.netlify.app",
-      github: "",
-      description: "Comprehensive admin portal featuring role-based auth, full CRUD operations over 1,000+ records, and interactive charts.",
-      points: [
-        "Built dynamic Admin Portal using React 19 & TypeScript with 20+ responsive pages.",
-        "Implemented Firebase Authentication with role-based routing for Admin, Manager, and standard users.",
-        "Developed RESTful CRUD API endpoints leveraging Node.js, Express.js, and MongoDB.",
-        "Created client-side filter & search algorithm indexing 1,000+ records with zero lag (< 50ms response).",
-        "Built visual metrics dashboards with 5+ chart variants powered by Recharts."
-      ],
-      tags: ["React 19", "TypeScript", "Node.js", "Express.js", "MongoDB", "Redux Toolkit", "Firebase"],
-      featured: true,
-      modalDetails: {
-        problem: "Managing user networking records, subscription tiers, and engagement data required a secure, searchable, and responsive control panel.",
-        solution: "Delivered an end-to-end full-stack MERN application with clean UI/UX, responsive tables, modal forms for record editing, and real-time analytical graphs.",
-        architecture: [
-          "Node.js/Express REST API with JWT authentication and middleware input validation.",
-          "MongoDB aggregation queries for quick statistics calculation.",
-          "React 19 dynamic pagination and memoized client-side filtering.",
-          "Recharts analytics engine with customizable time-series filters."
-        ],
-        keyMetrics: [
-          "1,000+ indexed data records handled effortlessly",
-          "< 50ms instant client search response",
-          "20+ dynamic application routes",
-          "5 interactive analytics chart types"
-        ],
-        techStackDetails: ["React 19", "TypeScript", "Node.js / Express", "MongoDB Atlas", "Firebase Auth", "Recharts"]
+        techStackDetails: ["React.js", "Bootstrap", "HTML5/CSS3", "Responsive Design"]
       }
     }
   ] as ProjectDetail[],
@@ -277,7 +313,7 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
       title: "Optimized Search & Filter Logic",
       language: "typescript",
       filename: "utils/filterRecords.ts",
-      description: "High-performance search utility with multi-field matching and memoization to process 1,000+ records seamlessly.",
+      description: "High-performance search utility with multi-field matching and memoization to process records seamlessly.",
       code: `import { useMemo } from 'react';
 
 export interface RecordItem {
@@ -318,51 +354,90 @@ export function useFilteredRecords(
       role: "Web Developer Intern",
       company: "Proser Digital Solutions",
       location: "Pune, India",
-      duration: "Oct 2025 – Present",
+      duration: "Dec 2025 – Aug 2026",
       points: [
-        "Developed 30+ modular, reusable React components using hooks-based architecture, boosting team UI reusability by 40%.",
-        "Integrated REST APIs with Axios, implementing custom request interceptors, global loading states, and robust error toast notifications.",
-        "Converted 15+ complex Figma wireframes into pixel-perfect, responsive HTML5/CSS3/Tailwind interfaces.",
-        "Optimized component render cycles using React.memo, useMemo, and useCallback, reducing wasteful re-renders by 50%.",
-        "Participated in Agile sprint planning, code reviews, and Git/Jira workflow management."
+        "Built modular, reusable React components using a hooks-based architecture, reducing duplicate code across admin modules and speeding up feature development.",
+        "Integrated REST APIs using Axios with MongoDB-backed data flows across core admin modules, replacing manual data refreshes with dynamic updates.",
+        "Converted Figma designs into responsive, cross-browser interfaces with consistent layouts across desktop and mobile breakpoints.",
+        "Identified and reduced unnecessary component re-renders to improve UI responsiveness in admin screens.",
+        "Collaborated in Agile sprints; used Git/GitHub for version control and participated in code reviews."
       ],
-      tech: ["React 19", "TypeScript", "Tailwind CSS", "Axios", "REST APIs", "Git", "Jira", "Figma"]
+      tech: ["React.js", "Hooks", "React.memo", "Axios", "REST APIs", "MongoDB", "Figma", "Git", "GitHub", "Agile/Scrum"]
     },
     {
       role: "Web Developer Intern",
       company: "Tayan Solutions",
       location: "Pune, India",
-      duration: "Mar 2024 – May 2024",
+      duration: "Mar 2025 – May 2025",
       points: [
-        "Crafted responsive landing pages and administrative layouts using JavaScript (ES6+), Bootstrap, and CSS3 for 3+ client applications.",
-        "Diagnosed and resolved 20+ frontend rendering and browser compatibility bugs, improving client satisfaction scores.",
-        "Collaborated with senior engineers using Git version control and GitHub pull request workflows."
+        "Developed responsive web interfaces using HTML, CSS, JavaScript, and Bootstrap.",
+        "Resolved UI and functional bugs and delivered interactive client-side features within sprint deadlines.",
+        "Integrated REST APIs to fetch and render dynamic content in place of hardcoded data.",
+        "Tracked tasks in Jira and collaborated using GitHub/Bitbucket."
       ],
-      tech: ["JavaScript (ES6+)", "HTML5", "CSS3", "Bootstrap", "Git", "Bug Resolution"]
+      tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "REST APIs", "Jira", "GitHub", "Bitbucket"]
     }
   ],
 
   education: [
     {
-      degree: "Master of Computer Application (MCA)",
+      degree: "Master of Computer Applications (MCA)",
       institution: "PVG's College of Science and Commerce",
-      score: "78%",
-      period: "2022 – 2024",
-      desc: "Specialized in Web Software Engineering, Database Systems, Advanced React Development, and Software Architecture."
+      score: "Grade: A+",
+      period: "2024 – 2026",
+      desc: "Comprehensive coursework in Web Software Engineering, Database Systems, Advanced React Development, and Scalable Software Architecture."
     },
     {
-      degree: "Bachelor of Computer Science (BCS)",
+      degree: "Bachelor's Degree",
       institution: "PVG's College of Science and Commerce",
-      score: "76.1%",
-      period: "2019 – 2022",
-      desc: "Core coursework in Data Structures, Algorithms, Object-Oriented Programming (Java), HTML/CSS/JS, and Database Management."
+      score: "Grade: A+",
+      period: "2020 – 2023",
+      desc: "Foundational computer science curriculum including Data Structures, Algorithms, Object-Oriented Programming (Core Java), HTML/CSS/JS, and Database Management."
     }
   ],
 
   certifications: [
-    { title: "ReactJS for Beginners", issuer: "Meta / Coursera", desc: "Hooks, state management, component lifecycle & JSX." },
-    { title: "Introduction to Prompt Engineering for Generative AI", issuer: "DeepLearning.AI", desc: "LLM integration, context structuring, and AI workflow automation." },
-    { title: "Big Data Computing (8 Weeks)", issuer: "NPTEL / IIT", desc: "Distributed computing concepts, data pipelines, and analytics." },
-    { title: "Certified Web Developer Intern", issuer: "Tayan Solutions", desc: "Professional web development certification upon internship completion." }
-  ]
+    {
+      title: "JavaScript Essentials 1",
+      issuer: "Cisco Networking Academy (Oct 2026)",
+      desc: "Core JavaScript fundamentals, control structures, functions, and algorithmic problem-solving."
+    },
+    {
+      title: "Basics of SQL Statements & Indexes",
+      issuer: "UniAthena / Cambridge International Qualifications, UK (Oct 2026)",
+      desc: "Relational database querying, index design, query optimization, and schema management."
+    },
+    {
+      title: "Basics of Artificial Intelligence: Learning Models",
+      issuer: "UniAthena / Cambridge International Qualifications, UK (Oct 2026)",
+      desc: "Artificial intelligence principles, machine learning model foundations, and data-driven systems."
+    },
+    {
+      title: "Basics of UI UX Strategy",
+      issuer: "UniAthena / Cambridge International Qualifications, UK (Oct 2026)",
+      desc: "User interface and user experience design principles, wireframing, and usability heuristics."
+    },
+    {
+      title: "ReactJS for Beginners",
+      issuer: "Meta / Coursera",
+      desc: "React hooks, state management, component lifecycle, and modern front-end patterns."
+    },
+    {
+      title: "Introduction to Prompt Engineering for Generative AI",
+      issuer: "DeepLearning.AI",
+      desc: "LLM prompt optimization, contextual structuring, and AI workflow integration."
+    },
+    {
+      title: "Big Data Computing",
+      issuer: "NPTEL / IIT",
+      desc: "Distributed systems, parallel computing paradigms, and large-scale data workflows."
+    },
+    {
+      title: "Certified Web Developer Intern",
+      issuer: "Proser Digital Solutions; Tayan Solutions",
+      desc: "Internship certification recognizing front-end and full-stack development contributions."
+    }
+  ],
+
+  languages: ["English", "Hindi", "Marathi"]
 };

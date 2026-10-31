@@ -81,7 +81,7 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.25 }}
             className="flex flex-wrap gap-2 pt-1"
           >
-            {["React 19", "TypeScript", "Redux Toolkit", "REST APIs", "Tailwind CSS"].map((tech, idx) => (
+            {["React.js", "JavaScript (ES6+)", "TypeScript", "Tailwind CSS", "REST APIs", "Node.js & MongoDB"].map((tech, idx) => (
               <span key={idx} className="inline-flex items-center gap-1.5 bg-surface/90 border border-white/10 px-3 py-1 rounded-md text-xs font-mono text-text-main">
                 <CheckCircle2 className="w-3.5 h-3.5 text-accent-primary" /> {tech}
               </span>
@@ -178,13 +178,13 @@ export const Hero: React.FC = () => {
               <div className="pl-4"><span className="text-sky-300">role</span>: <span className="text-emerald-300">"{PORTFOLIO_DATA.role}"</span>,</div>
               <div className="pl-4"><span className="text-sky-300">experience</span>: <span className="text-amber-300">"Proser Digital & Tayan Solutions"</span>,</div>
               <div className="pl-4"><span className="text-sky-300">specialization</span>: [</div>
-              <div className="pl-8 text-emerald-300">"React 19", "TypeScript", "Redux Toolkit",</div>
-              <div className="pl-8 text-emerald-300">"SaaS Dashboards", "REST APIs"</div>
+              <div className="pl-8 text-emerald-300">"React.js", "JavaScript (ES6+)", "TypeScript",</div>
+              <div className="pl-8 text-emerald-300">"Tailwind CSS", "REST APIs", "Node.js & MongoDB"</div>
               <div className="pl-4">],</div>
               <div className="pl-4"><span className="text-sky-300">metrics</span>: &#123;</div>
-              <div className="pl-8"><span className="text-sky-300">setupTimeSaved</span>: <span className="text-amber-300">"60%"</span>,</div>
-              <div className="pl-8"><span className="text-sky-300">reRenderReduction</span>: <span className="text-amber-300">"50%"</span>,</div>
-              <div className="pl-8"><span className="text-sky-300">pageLoadTime</span>: <span className="text-amber-300">"&lt; 2.0s"</span></div>
+              <div className="pl-8"><span className="text-sky-300">modularComponents</span>: <span className="text-amber-300">"30+"</span>,</div>
+              <div className="pl-8"><span className="text-sky-300">coreModulesShipped</span>: <span className="text-amber-300">"6"</span>,</div>
+              <div className="pl-8"><span className="text-sky-300">academicGrade</span>: <span className="text-amber-300">"Grade A+"</span></div>
               <div className="pl-4">&#125;,</div>
               <div className="pl-4"><span className="text-sky-300">status</span>: <span className="text-emerald-400">"OPEN_TO_WORK"</span></div>
               <div className="text-purple-400">&#125;;</div>
